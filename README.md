@@ -1,6 +1,7 @@
 # Capuchin Bird Call Detection
 
 This project aims to build a deep learning model that can detect the presence of capuchin bird calls in audio clips. Capuchin birds are a rare and endangered species that live in the Amazon rainforest. Their calls are distinctive and can be used as an indicator of biodiversity and habitat quality.
+![image](https://user-images.githubusercontent.com/7029092/235248959-a3aadbec-9a8f-49f7-bc47-8efc25ef08e9.png)
 
 The code consists of two main parts:
 
@@ -30,4 +31,9 @@ To run the code, you need to execute the following steps:
 4. Build and train the CNN model using tensorflow and keras.
 5. Evaluate and visualize the model performance using metrics and plots.
 
-The code is commented and documented for better understanding and readability.
+# Results  
+
+![image](https://user-images.githubusercontent.com/7029092/235249279-507dc5c9-1d84-45fb-b3e1-d91f509b3bad.png)
+![image](https://user-images.githubusercontent.com/7029092/235249359-c239e0f2-638a-4a6d-8301-588565993116.png)
+The Visualization shows the training loss and validation loss over the course of the training epochs. 
+The model loss and accuracy values are also provided in the comment for reference. The model achieved a loss of 0.034 and an accuracy of 94%, for one of the sample recording giving useful  informationfor assessing the performance of the model. I have predicted the presence of Capuchin Bird sounds for the entire data set
